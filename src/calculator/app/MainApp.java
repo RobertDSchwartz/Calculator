@@ -74,7 +74,7 @@ public class MainApp {
 	}
 	
 	/**
-	 * test to see how well the advanced calculator works with it's new functions 
+	 * test to see how well the advanced calculator works with it's new functions
 	 * also uses a couple of old ones to get it started and ended
 	 */
 	private static void test2_Advanced_Calculator() {
