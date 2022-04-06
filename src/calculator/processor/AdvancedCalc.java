@@ -9,12 +9,16 @@ public class AdvancedCalc extends StandardCalc implements AdvancedMath {
 	
 	@Override
 	public void pow(double input) {
-		Math.abs(input);
+		System.out.print(this.currValue + "^ " + input + " = ");
+		this.currValue = Math.pow(this.currValue, input);
+		System.out.println(this.currValue);
 	}
 
 	@Override
 	public void sqrt() {
-		Math.abs(this.currValue);		
+		System.out.print("\u221A" + this.currValue + " = ");
+		this.currValue = Math.sqrt(currValue);
+		System.out.println(this.currValue);
 	}
 
 }

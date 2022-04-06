@@ -13,21 +13,29 @@ public abstract class BasicCalc implements BasicMath {
 	
 	@Override
 	public void add(double input) {
+		System.out.print(this.currValue + " + " + input + " = ");
 		this.currValue += input;
+		System.out.println(this.currValue);
 	}
 
 	@Override
 	public void subtract(double input) {
+		System.out.print(this.currValue + " - " + input + " = ");
 		this.currValue -= input;
+		System.out.println(this.currValue);
 	}
 	
 	@Override
 	public void multiply(double input) {
+		System.out.print(this.currValue + " * " + input + " = ");
 		this.currValue *= input;
+		System.out.println(this.currValue);
 	}
 	
 	@Override
 	public void divide(double input) {
+		System.out.print(this.currValue + " / " + input + " = ");
 		this.currValue /= input;
+		System.out.println(this.currValue);
 	}
 }
